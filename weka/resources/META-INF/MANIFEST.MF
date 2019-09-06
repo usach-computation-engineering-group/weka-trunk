@@ -1,0 +1,35 @@
+Manifest-Version: 1.0 
+Implementation-Version: 2.0.0 
+Class-Path:  activation-1.0.1.jar arpack_combined.jar boon-0.32.jar bo
+ unce.jar clojure-1.5.1.jar clojure-utils-0.2.3.jar commons-codec-1.3.
+ jar commons-compress-1.18.jar commons-io-1.3.2.jar commons-logging-1.
+ 2.jar core.jar dom4j-1.6.1.jar figtree.jar geronimo-stax-api_1.0_spec
+ -1.0.jar groovy-2.5.5.jar groovy-ant-2.5.5.jar groovy-cli-commons-2.5
+ .5.jar groovy-cli-picocli-2.5.5.jar groovy-console-2.5.5.jar groovy-d
+ atetime-2.5.5.jar groovy-docgenerator-2.5.5.jar groovy-groovydoc-2.5.
+ 5.jar groovy-groovysh-2.5.5.jar groovy-jmx-2.5.5.jar groovy-json-2.5.
+ 5.jar groovy-jsr223-2.5.5.jar groovy-macro-2.5.5.jar groovy-nio-2.5.5
+ .jar groovy-servlet-2.5.5.jar groovy-sql-2.5.5.jar groovy-swing-2.5.5
+ .jar groovy-templates-2.5.5.jar groovy-test-2.5.5.jar groovy-test-jun
+ it5-2.5.5.jar groovy-testng-2.5.5.jar groovy-xml-2.5.5.jar groovy.jar
+  hadoop-core-1.2.1.jar httpclient-3.1.0.jar j3dcore.jar j3dutils.jar 
+ java-cup.jar javafx.graphics.jar javagd-0.6.1.jar jaxb-api-2.4.0-b180
+ 830.0359.jar jcalendar-1.4.jar jclipboardhelper-0.1.2.jar jetty-6.1.5
+ .jar jetty-util-7.0.0.pre5.jar jfilechooser-bookmarks-0.1.6.jar JFlex
+ .jar jfreechart-1.5.0.jar jgoodies-common-1.2.0.jar jgoodies-looks-2.
+ 4.1.jar jmathplot.jar jna-platform.jar jna.jar jniloader-1.1.jar jOpe
+ nDocument.jar JRI.jar JRIEngine.jar jsyntaxpane-0.9.5-b29.jar junit-4
+ .6.jar junit.jar jython.jar kxml2-min-2.3.0.jar liblinear-java-1.96-S
+ NAPSHOT.jar libsvm.jar LibSVMpkg.jar log4j-1.2.17.jar mail-1.4.jar mo
+ a.jar mtj.jar native_ref-java-1.1.jar native_system-java-1.1.jar open
+ csv-2.4.jar poi-3.8-20120326.jar poi-ooxml-3.8-20120326.jar poi-ooxml
+ -schemas-3.8-20120326.jar prefuse.jar REngine.jar scala-reflect-2.11.
+ 0.jar servlet-api-2.5-6.1.14.jar snowball.jar spark-catalyst_2.12-2.4
+ .2.jar spark-core_2.12-2.4.2.jar spark-csv_2.10-1.5.0.jar spark-mllib
+ _2.12-2.4.2.jar spark-sql_2.12-2.4.2.jar t-digest-3.2.jar tigerjython
+ 2.jar vecmath.jar xmlbeans-2.3.0.jar xmlpull-1.1.3.1.jar xpp3_min-1.1
+ .4c.jar xstream-1.4.10.jar jogl-all.jar gluegen.jar gluegen-rt-native
+ s-linux-amd64.jar gluegen-rt-natives-windows-amd64.jar jogl-all-nativ
+ es-linux-amd64.jar jogl-all-natives-windows-amd64.jar 
+Main-Class: weka.gui.GUIChooser 
+
