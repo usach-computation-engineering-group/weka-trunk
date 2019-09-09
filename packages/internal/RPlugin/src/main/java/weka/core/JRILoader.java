@@ -412,9 +412,6 @@ public class JRILoader {
       return s_api;
     }
 
-    // check if we need to inject the native loader and dependencies
-    if (!hasInjectedNativeLoader()) {
-
       // check for R_HOME
       boolean checkRHome = checkRHome(); // Need to do this first to fix things up if necessary and possible
 
@@ -432,22 +429,7 @@ public class JRILoader {
 
         s_isLoaded = true;
       }
-    } else {
-      if (checkRHome()) {
-        Class<?> implClass = Class.forName(RSESSION_IMPL);
-
-        Method singletonGrabber = implClass.getDeclaredMethod("getSessionSingleton", new Class[] {});
-
-        s_api = singletonGrabber.invoke(null, (Object[]) null);
-
-        if (s_api == null) {
-          throw new Exception("Unable to establish R session implementation.");
-        }
-
-        s_isLoaded = true;
-      }
-    }
-
+    
     return s_api;
   }
 
