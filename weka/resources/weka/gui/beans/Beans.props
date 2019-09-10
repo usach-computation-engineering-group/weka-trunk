@@ -79,8 +79,7 @@ UserComponentsInXML=false
 # colours
 weka.gui.beans.StripChart.backgroundColour=black
 weka.gui.beans.StripChart$LegendPanel.borderColour=blue
-
-# weka.gui.beans.PythonScriptExecutor,\
+ 
 weka.gui.beans.KnowledgeFlow.Plugins=org.pentaho.dm.kf.GroovyComponent,\
  org.pentaho.dm.plugins.kf.KettleInject,\
  weka.gui.beans.PMMLClassifierScoring,\
@@ -100,10 +99,9 @@ weka.gui.beans.KnowledgeFlow.Plugins=org.pentaho.dm.kf.GroovyComponent,\
  weka.gui.beans.RandomizedDataSparkJob,\
  weka.gui.beans.KMeansClustererSparkJob,\
  weka.gui.beans.RScriptExecutor,\
+ weka.gui.beans.PythonScriptExecutor,\
  weka.gui.beans.TimeSeriesForecasting
  
-# weka/gui/beans/templates/pythonScripting.kfml,\ 
-# weka/gui/beans/templates/scikitLearn.kfml,\
 weka.gui.beans.KnowledgeFlow.templates=org/pentaho/dm/kf/templates/learningCurve.kfml,\
  weka/gui/beans/templates/createARFFHeaderWithSummary.kfml,\
  weka/gui/beans/templates/createARFFHeaderAndGenerateGraphs.kfml,\
@@ -113,10 +111,10 @@ weka.gui.beans.KnowledgeFlow.templates=org/pentaho/dm/kf/templates/learningCurve
  weka/gui/beans/templates/kMeansClustering.kfml,\
  weka/gui/beans/templates/trainClassifierAndScoreData.kfml,\
  weka/gui/beans/templates/R_example.kfml,\
- weka/gui/beans/templates/R_example2.kfml
+ weka/gui/beans/templates/R_example2.kfml,\
+ weka/gui/beans/templates/pythonScripting.kfml,\ 
+ weka/gui/beans/templates/scikitLearn.kfml
  
-# Running CPython scripts,\
-# Comparing two scikit-learn classifiers,\
 weka.gui.beans.KnowledgeFlow.templates.desc=Groovy scripting: learning curve,\
  Spark: create an ARFF header,\
  Spark: create header with quartiles and graphs,\
@@ -126,10 +124,12 @@ weka.gui.beans.KnowledgeFlow.templates.desc=Groovy scripting: learning curve,\
  Spark: run k-means||,\
  Spark: train a random forest classifier and score data,\
  Running R scripts,\
- Learning rpart via MLR in the Weka framework
+ Learning rpart via MLR in the Weka framework,\
+ Running CPython scripts,\
+ Comparing two scikit-learn classifiers
 
-# weka.gui.beans.PythonPerspective,\
 weka.gui.beans.KnowledgeFlow.Perspectives=weka.gui.beans.KF3DPerspective,\
  weka.gui.beans.JavaGDPerspective,\
  weka.gui.beans.TimeSeriesForecastingKFPerspective,\
+ weka.gui.beans.PythonPerspective,\
  weka.gui.beans.KnowledgeFlowRemoteSchedulerPerspective

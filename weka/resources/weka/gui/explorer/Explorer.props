@@ -32,7 +32,6 @@ InitGenericObjectEditorFilter=True
 #   standalone - the tab does not depend on the PreprocessPanel to load the data first
 #
 
-#	 weka.gui.explorer.PythonExplorerPanel,\
 Tabs=weka.gui.explorer.ClassifierPanel,\
      weka.gui.explorer.ClustererPanel,\
      weka.gui.explorer.AssociationsPanel,\
@@ -40,6 +39,7 @@ Tabs=weka.gui.explorer.ClassifierPanel,\
      weka.gui.explorer.VisualizePanel,\
 	 weka.gui.explorer.Explorer3DPanel,\
 	 weka.gui.explorer.ExplorerRConsolePanel,\
+	 weka.gui.explorer.PythonExplorerPanel,\
 	 weka.classifiers.timeseries.gui.explorer.ExplorerTSPanel
 	 
 

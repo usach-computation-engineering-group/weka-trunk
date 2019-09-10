@@ -1,4 +1,3 @@
-# weka.gui.knowledgeflow.PythonPerspective,\
 weka.gui.Perspective=weka.gui.explorer.PreprocessPanel,\
  weka.gui.explorer.ClassifierPanel,\
  weka.gui.explorer.ClustererPanel,\
@@ -14,9 +13,9 @@ weka.gui.Perspective=weka.gui.explorer.PreprocessPanel,\
  weka.gui.knowledgeflow.KF3DPerspective,\
  weka.gui.knowledgeflow.RConsolePerspective,\
  weka.gui.knowledgeflow.TimeSeriesPerspective,\
+ weka.gui.knowledgeflow.PythonPerspective,\
  weka.gui.knowledgeflow.KnowledgeFlowRemotePerspective
 
-# weka.knowledgeflow.steps.PythonScriptExecutor,\
 weka.knowledgeflow.steps.Step=weka.knowledgeflow.steps.GroovyStep,\
  weka.knowledgeflow.steps.KettleInject,\
  weka.knowledgeflow.steps.PrefuseGraphViewer,\
@@ -48,19 +47,20 @@ weka.knowledgeflow.steps.Step=weka.knowledgeflow.steps.GroovyStep,\
  weka.knowledgeflow.steps.StatsCalculator,\
  weka.knowledgeflow.steps.RoundRobin,\
  weka.knowledgeflow.steps.ExampleClassifier,\
- weka.knowledgeflow.steps.RScriptExecutor
+ weka.knowledgeflow.steps.RScriptExecutor,\
+ weka.knowledgeflow.steps.PythonScriptExecutor
 
 weka.classifiers.evaluation.AbstractEvaluationMetric=weka.classifiers.evaluation.RootMeanSquareLogarithmicError,\
  weka.classifiers.evaluation.MeanAbsoluteLogarithmicError,\
  weka.classifiers.evaluation.RootMeanSquarePercentageError,\
  weka.classifiers.evaluation.MeanAbsolutePercentageError
  
-#[weka.knowledgeflow.plugin.templates|Python scripting|weka/gui/knowledgeflow/templates/pythonScripting.kf],\  
-#[weka.knowledgeflow.plugin.templates|Running two scikit-learn schemes|weka/gui/knowledgeflow/templates/scikitLearn.kf],\
 *resources*=[weka.knowledgeflow.plugin.templates|Groovy scripting - learning curves|weka/gui/knowledgeflow/templates/groovyLearningCurve.kf],[weka.knowledgeflow.plugin.templates|Groovy scripting - load ARFF files|weka/gui/knowledgeflow/templates/loadArffFromDirectory.kf],\
 [weka.knowledgeflow.plugin.templates|Visualizing calibration curves|weka/gui/knowledgeflow/templates/calibration.kf],\
 [weka.knowledgeflow.plugin.templates|Spark: create an ARFF header|weka/gui/knowledgeflow/templates/createARFFHeaderWithSummary.kf],[weka.knowledgeflow.plugin.templates|Spark: create header with quartiles and graphs|weka/gui/knowledgeflow/templates/createARFFHeaderAndGenerateGraphs.kf],[weka.knowledgeflow.plugin.templates|Spark: compute a correlation matrix and run PCA|weka/gui/knowledgeflow/templates/computeCorrelationMatrixAndPCA.kf],[weka.knowledgeflow.plugin.templates|Spark: train and save two classifiers|weka/gui/knowledgeflow/templates/trainTwoClassifiers.kf],[weka.knowledgeflow.plugin.templates|Spark: cross-validate two classifiers|weka/gui/knowledgeflow/templates/evaluateTwoClassifiers.kf],[weka.knowledgeflow.plugin.templates|Spark: run k-means parallel|weka/gui/knowledgeflow/templates/kMeansClustering.kf],[weka.knowledgeflow.plugin.templates|Spark: train a random forest and score data|weka/gui/knowledgeflow/templates/trainClassifierAndScoreData.kf],\
 [weka.knowledgeflow.plugin.templates|Spark: run desktop MLlibNaiveBayes|weka/gui/knowledgeflow/templates/runDesktopMLlibNB.kf],[weka.knowledgeflow.plugin.templates|Spark: train and save three classifiers|weka/gui/knowledgeflow/templates/trainAndSaveThreeClassifiers.kf],[weka.knowledgeflow.plugin.templates|Spark: cross-validate three classifiers|weka/gui/knowledgeflow/templates/evaluateThreeClassifiers.kf],\
 [weka.knowledgeflow.plugin.templates|KF Examples: StatsCalculator|weka/gui/knowledgeflow/templates/statsCalculator.kf],[weka.knowledgeflow.plugin.templates|KF Examples: RoundRobin|weka/gui/knowledgeflow/templates/roundRobin.kf],[weka.knowledgeflow.plugin.templates|KF Examples: ExampleClassifier|weka/gui/knowledgeflow/templates/exampleClassifier.kf],\
 [weka.knowledgeflow.plugin.templates|R scripting|weka/gui/knowledgeflow/templates/R_example.kf],[weka.knowledgeflow.plugin.templates|Running an MLR classifier|weka/gui/knowledgeflow/templates/R_example2.kf],\
-[weka.knowledgeflow.plugin.templates|Compute summary stats on 1 million instances|weka/gui/knowledgeflow/templates/summary.kf]
+[weka.knowledgeflow.plugin.templates|Running two scikit-learn schemes|weka/gui/knowledgeflow/templates/scikitLearn.kf],\
+[weka.knowledgeflow.plugin.templates|Compute summary stats on 1 million instances|weka/gui/knowledgeflow/templates/summary.kf],\
+[weka.knowledgeflow.plugin.templates|Python scripting|weka/gui/knowledgeflow/templates/pythonScripting.kf]
