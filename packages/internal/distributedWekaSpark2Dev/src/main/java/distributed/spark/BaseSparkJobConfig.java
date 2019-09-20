@@ -131,8 +131,7 @@ public abstract class BaseSparkJobConfig extends DistributedJobConfig {
         DISTRIBUTED_WEKA_BASE_JAR, OPEN_CSV_JAR, JFREECHART_JAR, JCOMMON_JAR,
         COLT_JAR, LA4J_JAR, TDIGEST_JAR));
       File propsFile =
-        new File(WekaPackageManager.PACKAGES_DIR.toString() + File.separator
-          + PACKAGE_NAME + File.separator + WEKA_SPARK_PROPS);
+        new File(BaseSparkJobConfig.class.getClassLoader().getResource(WEKA_SPARK_PROPS).getFile());
       Properties sparkProps = new Properties();
       sparkProps.load(new FileInputStream(propsFile));
 
